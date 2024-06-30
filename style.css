@@ -1,0 +1,98 @@
+::selection{
+    background-color: #fec260;
+}
+
+body{
+    background-color: #f7ecde;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+}
+
+
+table,
+label{
+    font-family: sans-serif;
+}
+
+h2{
+    background: -webkit-linear-gradient( #3ca55c, #b5ac49) ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+
+}
+.dot-up{
+    border-top: 2px dotted black;
+    padding-top: 35px;
+}
+
+.dot{
+    border-bottom: 2px dotted black;
+    padding-bottom: 35px;
+}
+
+.icon-1{
+    bottom: 28%;
+    right: 17%;
+    color:#3ca55c ;
+}
+
+
+ .icon-2{
+    left:17%;
+    top:68%;
+    color:#b5ac49 ;
+
+} 
+
+
+
+h1::after{
+    content: "";
+    width: 25%;
+    height: 20px;
+    background-color:#fec260;
+    position: absolute;
+    bottom: 0px;
+    left: 37%;
+    z-index: -1;
+    transition: all .5s;
+}
+
+h1:hover::after{
+    height: 40px;
+}
+
+span{
+    width: 20px;
+    height: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li i{
+   color:red;
+   width: 25px;
+   height: 25px;
+   border: .5px solid red ;
+   border-radius: 50%;
+   padding: 3px 5px;
+}
+
+#layer p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#layer ul li{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
